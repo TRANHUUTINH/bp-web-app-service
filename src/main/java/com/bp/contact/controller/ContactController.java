@@ -6,6 +6,7 @@ import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "https://bp-web-app.vercel.app")
 @RestController
 @RequestMapping("/api/contact")
 public class ContactController {
